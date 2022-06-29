@@ -1,0 +1,30 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "superb build in js",
+    "main": "server.js",
+    "scripts": {
+        "test": "nodemon"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manishmg3994"
+    },
+    "keywords": [
+        "socket.io",
+        "webrtc",
+        "chat"
+    ],
+    "author": "Manish Gautam",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "socket.io": "^4.5.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    }
+}
